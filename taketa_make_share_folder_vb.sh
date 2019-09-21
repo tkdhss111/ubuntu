@@ -21,4 +21,4 @@ ls $DIR_SHARE
 chmod -R 777 /media
 
 # Add auto mount command on .bashrc
-echo "sudo mount -t vboxsf 01_Projects $DIR_SHARE" >> /home/jma/.bashrc
+#echo "sudo mount -t vboxsf 01_Projects $DIR_SHARE" >> /home/jma/.bashrc

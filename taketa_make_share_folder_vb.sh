@@ -5,14 +5,14 @@ DIR_SHARE=/media/win/01_Projects
 
 # Change visudo editor from nano to nvim
 #update-alternatives --config editor
-#visudo
+#sudo visudo
 
 # Append the following command manually
 #jma ALL = (ALL) NOPASSWD: /bin/mount
 
 #apt update
-#apt install virtualbox-guest-dkms
-#apt install virtualbox-guest-utils
+apt install virtualbox-guest-dkms
+apt install virtualbox-guest-utils
 #reboot
 
 mkdir -p $DIR_SHARE 

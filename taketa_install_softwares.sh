@@ -1,7 +1,5 @@
-apt install baobab -y
-apt install gnumeric -y
-apt install htop -y
-apt install meld -y
+# Convienient tools
+apt install baobab, gnumeric, htop, meld, gparted, apcalc -y
 
 # Unused software removal
 apt remove --purge Cheese -y

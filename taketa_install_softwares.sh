@@ -10,6 +10,9 @@ apt remove --purge Cheese -y
 # Remote desktop
 #
 # Linux settings: set all X11Forwarding options to yes in ssh and sshd configs.
+# 
+# Use Mozc(Google Japanese Input System Clone) 
+#
 # Windows settings: use MobaXterm RDP and set ssh tunneling settings properly.
 #
 apt remove --purge xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils xrdp -y

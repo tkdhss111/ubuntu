@@ -9,22 +9,24 @@ ubuntu-drivers devices
 nvidia-smi
 
 # Install driver: replace XXX with the 3 digits number
+sudo apt purge nvidia*
 sudo apt install nvidia-driver-XXX
 
-# Kernel verision fix
-sudo apt-get install aptitude
-aptitude show linux-generic
-cd /etc/apt/preferences.d
-
-sudo vim linux-kernel.pref # Manually fill out the below:
-#Package: linux-generic
-#Pin: version 4.15.0.xx.xx
-#Pin-Priority: 1001
+# NO FOR USE
+## Kernel verision fix
+#sudo apt-get install aptitude
+#aptitude show linux-generic
+#cd /etc/apt/preferences.d
 #
-#Package: linux-headers-generic
-#Pin: version 4.15.0.xx.xx
-#Pin-Priority: 1001
-#
-#Package: linux-image-generic
-#Pin: version 4.15.0.xx.xx
-#Pin-Priority: 1001
+#sudo vim linux-kernel.pref # Manually fill out the below:
+##Package: linux-generic
+##Pin: version 4.15.0.xx.xx
+##Pin-Priority: 1001
+##
+##Package: linux-headers-generic
+##Pin: version 4.15.0.xx.xx
+##Pin-Priority: 1001
+##
+##Package: linux-image-generic
+##Pin: version 4.15.0.xx.xx
+##Pin-Priority: 1001

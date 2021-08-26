@@ -1,7 +1,7 @@
 apt update
 
 # Convienient tools
-apt install baobab, gnumeric, htop, meld, gparted, apcalc -y
+apt install baobab, htop, meld, gparted, apcalc, screenshot, kazam -y
 
 # Unused software removal
 apt remove --purge Cheese -y

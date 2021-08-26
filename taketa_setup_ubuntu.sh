@@ -22,12 +22,22 @@ Port 20022
 PermitRootLogin prohibit-password
 PasswordAuthentication no 
 sudo ufw enable
-sudo ufw allow 80
-sudo ufw allow 443
 sudo ufw allow 20022
 
 sudo apt install -y meld
 sudo apt install -y baobab
 sudo apt install -y htop
 
+# zathura
+# xrdp
+# texlive
+# sqlite3
+# sqlitebrowser
+# rsync
+# rstudio
+# microsoft-r-open-mkl-4.0.2
+# microsoft-r-open-mro-4.0.2
+# ninja-build
+# openssh-server
+# 
 
